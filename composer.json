@@ -1,10 +1,10 @@
 {
-    "name": "odesenvolvedor/boleto-facil",
+    "name": "odesenvolvedor/juno-php-sdk",
     "version": "1.0.0",
-    "homepage": "https://github.com/odesenvolvedor/odesenvolvedor-boleto-facil",
+    "homepage": "https://github.com/odesenvolvedor/odesenvolvedor-juno-php-sdk",
     "description": "SDK em PHP para Integração não-oficial com Boleto Fácil da Juno",
     "keywords": [
-        "Boleto Fácil",
+        "Juno Boleto Fácil",
         "Boleto Bancário",
         "api",
         "php",
