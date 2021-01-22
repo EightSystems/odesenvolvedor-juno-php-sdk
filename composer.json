@@ -1,0 +1,37 @@
+{
+    "name": "odesenvolvedor/boleto-facil",
+    "version": "1.0.0",
+    "homepage": "https://github.com/odesenvolvedor/odesenvolvedor-boleto-facil",
+    "description": "SDK em PHP para Integração não-oficial com Boleto Fácil da Juno",
+    "keywords": [
+        "Boleto Fácil",
+        "Boleto Bancário",
+        "api",
+        "php",
+        "sdk"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fernando Campos de Oliveira",
+            "email": "fernando@odesenvolvedor.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ODJuno\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ODJuno\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
