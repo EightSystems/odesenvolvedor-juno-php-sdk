@@ -45,11 +45,5 @@ class Base
         $response = $this->client->request($method, $uri, $options);
 
         return $response->getBody();
-/*         $jsonResponse = json_decode($response->getBody(), true);
-        if (empty($jsonResponse)) {
-            return [];
-        }
-
-        return $jsonResponse; */
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "odesenvolvedor/juno-php-sdk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/odesenvolvedor/odesenvolvedor-juno-php-sdk",
     "description": "SDK em PHP para Integração não-oficial com Boleto Fácil da Juno",
     "keywords": [

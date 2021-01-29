@@ -17,7 +17,7 @@ class ChargeDetail extends BaseEntity
     /**
      * @var array $references
      */
-    protected $reference;
+    protected $references;
     /**
      * @var float $totalAmount
      */
@@ -100,9 +100,9 @@ class ChargeDetail extends BaseEntity
      *
      * @return  array
      */ 
-    public function getReference()
+    public function getReferences()
     {
-        return $this->reference;
+        return $this->references;
     }
 
     /**
@@ -266,13 +266,13 @@ class ChargeDetail extends BaseEntity
     /**
      * Set $references
      *
-     * @param  array  $reference  $references
+     * @param  array  $references  $references
      *
      * @return  self
      */ 
-    public function setReference(array $reference)
+    public function setReferences(array $references)
     {
-        $this->reference = $reference;
+        $this->references = $references;
 
         return $this;
     }

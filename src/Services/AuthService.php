@@ -16,7 +16,7 @@ class AuthService extends BaseService
         $response = $this->client->post('oauth/token', [
             'form_params' => ['grant_type' => 'client_credentials']
         ]);
-        print_r($authResponse); 
+ 
         return $authResponse->fromJson($response);
     }
 }
