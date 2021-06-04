@@ -312,7 +312,7 @@ class ChargeDetail extends BaseEntity
      *
      * @return  self
      */ 
-    public function setDueDate(\DateTime $dueDate)
+    public function setDueDate(string $dueDate)
     {
         $this->dueDate = $dueDate;
 
