@@ -11,6 +11,10 @@ class ChargeDetail extends BaseEntity
      */
     protected $pixKey;
     /**
+     * @var bool $pixIncludeImage
+     */
+    protected $pixIncludeImage;
+    /**
      * @var string $description
      */
     protected $description;
@@ -27,7 +31,7 @@ class ChargeDetail extends BaseEntity
      */
     protected $amount;
     /**
-     * @var Date $dueDate
+     * @var string $dueDate
      */
     protected $dueDate;
     /**
@@ -245,6 +249,20 @@ class ChargeDetail extends BaseEntity
     public function setPixKey(string $pixKey)
     {
         $this->pixKey = $pixKey;
+
+        return $this;
+    }
+    
+    /**
+     * Set $pixIncludeImage
+     *
+     * @param  string  $pixKey  $pixKey
+     *
+     * @return  self
+     */ 
+    public function setPixIncludeImage(bool $pixIncludeImage)
+    {
+        $this->pixIncludeImage = $pixIncludeImage;
 
         return $this;
     }
